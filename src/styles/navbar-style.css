@@ -1,0 +1,82 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    align-items: start;
+}
+.initial-first
+{
+    display: flex;
+    gap: 7rem;
+}
+.navbar-list .navbar-items
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+.arrow
+{
+    margin-left: 5px;
+}
+.initial-second
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.initial-second a
+{
+    text-decoration: none;
+    color: black;
+}
+.register-button
+{
+    padding: .75rem 1.5rem;
+    background:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+/* drop down */
+
+.feature-menu
+{
+    display: none;
+}
+.navbar .feature-dropdown:hover .feature-menu
+{
+    display: block;
+}
+.feature-menu
+{
+    list-style: none;
+    background-color: white;
+    padding:1.5rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    
+    -webkit-box-shadow: 8px 12px 26px -15px rgb(255, 255, 255);
+-moz-box-shadow: 8px 12px 26px -15px rgb(255, 255, 255);
+box-shadow: 8px 12px 26px -15px rgb(233, 233, 233);
+}
+.feature-menu li
+{
+    padding-bottom:12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.feature-menu li:last-child
+{
+    padding-bottom: 0;
+}
+.feature-menu-icon
+{
+    margin-right: 10px;
+}

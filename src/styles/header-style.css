@@ -1,0 +1,46 @@
+
+.hero-div
+{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+.hero-img
+{
+    width: 70vh;
+}
+.hero-image
+{
+    width: 100%;
+}
+.hero-text
+{
+    margin-block: 3rem;
+}
+
+.hero-text p
+{
+    padding-block: 2rem;
+    opacity: .7;
+    width: 80%;
+    line-height: 1.5;
+}
+.learn-btn
+{
+    padding: 1rem 2rem;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+}
+.partner-brands
+{
+    padding-top: 5rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+
+}
